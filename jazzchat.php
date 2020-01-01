@@ -11,6 +11,7 @@ Author: Piotr Gregor piotr@dataandsignal.com
 Version: 1.0
 Author URI: https://jazzchat.pl
 License: GPLv2 or later
+Date: 1 Jan 2020
 */
 add_action( 'wp_head', 'my_header_scripts' );
 
@@ -87,11 +88,5 @@ function field_callback( $arguments ) {
 
 	$format = '<input name="jazzchat_uuid" id="jazzchat_uuid" type="text" placeholder="%s" value="%s" />';
 	echo sprintf( $format, $value, $value );
-/**	?>
-	<div>
-		<p>Here it will be</p>
-	</div>
-<?php
-**/
 }
 
