@@ -10,6 +10,7 @@ Description: Connect users and agents within domains using chat, audio and video
 Author: Piotr Gregor piotr@dataandsignal.com
 Version: 1.0
 Author URI: https://jazzchat.pl
+License: GPLv2 or later
 */
 add_action( 'wp_head', 'my_header_scripts' );
 
