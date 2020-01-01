@@ -37,7 +37,7 @@ function create_plugin_settings_page() {
 
 function plugin_settings_page_content() {?>
 	<div class="wrap">
-	<h2>My Awesome Settings Page</h2><?php
+	<h2>Jazzchat Settings</h2><?php
 	if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] ){
 		admin_notice();
 	} ?>
@@ -64,11 +64,12 @@ add_action( 'admin_init', 'setup_sections' );
 add_action( 'admin_init', 'setup_fields' );
 
 function setup_sections() {
-	add_settings_section( 'jazzchat_settings_first_section', 'My First Section Title', 'settings_callback', 'jazzchat' );
+	add_settings_section( 'jazzchat_settings_first_section', 'Domain', 'settings_callback', 'jazzchat' );
 }
 
 function settings_callback( $arguments ) {
-	printf( '<div>OK</div>' );
+	printf( '<div>The only settings you must give to WordPress is Jazzchat\'s domain name that you have registered. If you have not done this yet, you can register domain for free here: <a href=\'https://jazzchat.pl\' target=\'_blank\'>https://jazzchat.pl</a>.</div>' );
+	printf( '<br/><div>You can configure all domain and chat settings in agent\'s panel once you signed into your domain at Jazzchat.</div>' );
 }
 
 function setup_fields() {
