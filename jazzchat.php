@@ -16,10 +16,14 @@ Date: 1 Jan 2020
 add_action( 'wp_head', 'my_header_scripts' );
 
 function my_header_scripts(){
-  ?>
-        <script type='text/javascript'>var jazzchat_uuid = 'test4';</script>
-        <script  src='https://jazzchat.pl/client/js/jazzchat.js'></script>
-  <?php
+	
+	$value = get_option( 'jazzchat_uuid' );
+	if( !$value ) {
+		$value = 'YOUR_DOMAIN';
+	}
+	
+	$format = '<script type="text/javascript">var jazzchat_uuid = "%s";</script><script  src="https://jazzchat.pl/client/js/jazzchat.js"></script>';
+	echo sprintf( $format, $value );
 }
 
 add_action( 'admin_menu', 'create_plugin_settings_page' );
