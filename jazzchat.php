@@ -16,14 +16,16 @@ Date: 1 Jan 2020
 add_action( 'wp_head', 'jazzchat_header_scripts' );
 
 function jazzchat_header_scripts(){
+
+	wp_enqueue_script( "jazzchat_js_uuid", "https://jazzchat.pl/client/js/jazzchat.js" );
 	
-	$value = get_option( 'jazzchat_uuid' );
-	if( !$value ) {
-		$value = 'YOUR_DOMAIN';
+	$domain_uuid = get_option( 'jazzchat_uuid' );
+	if( !$domain_uuid ) {
+		$domain_uuid = 'DOMAIN_NOT_SET';
 	}
 	
-	$format = '<script type="text/javascript">var jazzchat_uuid = "%s";</script><script  src="https://jazzchat.pl/client/js/jazzchat.js"></script>';
-	echo sprintf( $format, $value );
+	$jazzchat_uuid_define = 'var jazzchat_uuid = "' . $domain_uuid . '";';
+	wp_add_inline_script( "jazzchat_js_uuid", $jazzchat_uuid_define );
 }
 
 add_action( 'admin_menu', 'jazzchat_create_plugin_settings_page' );
@@ -85,12 +87,12 @@ function jazzchat_setup_fields() {
 
 function jazzchat_field_callback( $arguments ) {
 	
-	$value = get_option( 'jazzchat_uuid' );
-	if( !$value ) {
-		$value = 'YOUR_DOMAIN';
+	$domain_uuid = get_option( 'jazzchat_uuid' );
+	if( !$domain_uuid ) {
+		$domain_uuid = 'DOMAIN_NOT_SET';
 	}
 
 	$format = '<input name="jazzchat_uuid" id="jazzchat_uuid" type="text" placeholder="%s" value="%s" />';
-	echo sprintf( $format, $value, $value );
+	echo sprintf( $format, $domain_uuid, $domain_uuid );
 }
 
