@@ -2,7 +2,7 @@
 === Jazzchat ===
 Contributors: piotrgregor
 Donate link: https://jazzchat.pl
-Tags: chat, audio, video, users, agents, domains
+Tags: chat, audio, video, webrtc, email, livechat, users, agents, domains
 Requires at least: 4.6
 Tested up to: 5.3.2
 Requires PHP: 5.2.4
