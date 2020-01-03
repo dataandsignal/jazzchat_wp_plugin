@@ -9,19 +9,15 @@ Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-WordPress plugin for Jazzchat
-
 Jazzchat allows you to connect users and agents within domains, using chat, audio and video.
 
 
 == Description ==
 
-WordPress plugin for Jazzchat
-
 Jazzchat allows you to connect users and agents within domains, using chat, audio and video.
 In free version of Jazzchat there is a limit of 2 agents per domain.
 In commercial ("advantage") package you can have as many agents as you want (paying per agent monthly).
-For more info, please visit https://jazzchat.pl or https://wordpress.org/plugins/jazzchat.
+For more info, please visit https://jazzchat.pl.
 
 
 == Installation ==
@@ -58,6 +54,13 @@ This depends on the package you are using. In free version of Jazzchat there is 
 In commercial ("advantage") package you can have as many agents as you want (paying per agent monthly).
 
 == Screenshots ==
+ 
+1. Chat widget displayed on the web page, when the domain is online (there are some agents logged into the domain).
+2. Chat widget displayed on the web page, when the domain is offline and configured to offer email (there is no agents logged into the domain).
+3. Domain can be configured to show various events and notifications. Here the info is displayed because agent opened this conversation in agent's panel (indicates agent's focus, configurable).
+4. Here agent typing indication is displayed, as agent is typing something.
+5. Conversation. Agent's details may be displayed (name, brief overview, picture) if configured.
+6. Conversation with enabled audio and video call (menu).
 
 
 == Changelog ==
