@@ -23,16 +23,27 @@ For more info, please visit https://jazzchat.pl.
 == Installation ==
 
 To display Jazzchat widget on WordPress page:
+--------------------------------------------
 
-1. Register your domain at Jazzchat. 
+1. Register your domain at Jazzchat.
+
 2. Install Jazzchat plugin from WordPress administrator panel, or unzip this WordPress plugin: https://github.com/dataandsignal/jazzchat_wp_plugin to wp-content/plugins folder.
+
 3. Open Jazzchat plugin's settings in WordPress admin panel and set domain setting (jazzchat_uuid) to your domain name.
 
-Live example is running at https://jazzchat.pl/lovely.html (and on https://jazzchat.pl of course!). You can inspect HTML source code in browser's console by pressing F12 (Chrome).
+
+Live example is running at https://jazzchat.pl/lovely.html (and on https://jazzchat.pl of course!).
+
+You can inspect HTML source code in browser's console by pressing F12 (Chrome).
+
 Note, there will likely be no agent logged in to this test domain, but you can engage your friends or just go ahead, log into this test domain and play the agent's role for your own entertainment (login credentials: domain=lovely, login=agent, password=password).
+
 Note also that some features are limited or disibaled for this test domain.
+
 Administrator role is limited - you cannot change login and password.
+
 And by the same token, chat to email feature sends all emails to Data And Signal instead of test agent.
+
 Please remember, for your domain, you must install SSL certificate and use https for audio and video calls.
 
 Have a fun!
