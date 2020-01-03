@@ -15,8 +15,11 @@ Jazzchat allows you to connect users and agents within domains, using chat, audi
 == Description ==
 
 Jazzchat allows you to connect users and agents within domains, using chat, audio and video.
+
 In free version of Jazzchat there is a limit of 2 agents per domain.
+
 In commercial ("advantage") package you can have as many agents as you want (paying per agent monthly).
+
 For more info, please visit https://jazzchat.pl.
 
 
