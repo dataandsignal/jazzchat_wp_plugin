@@ -44,7 +44,7 @@ To display Jazzchat widget on WordPress page:
 
 2. Install Jazzchat plugin from WordPress administrator panel, or unzip this WordPress plugin: https://github.com/dataandsignal/jazzchat_wp_plugin to wp-content/plugins folder.
 
-3. Open Jazzchat plugin's settings in WordPress admin panel and set domain setting (jazzchat_uuid) to your domain name.
+3. Open Jazzchat plugin's settings in WordPress admin panel and set 'Your domain registered at Jazzchat' setting to your domain name.
 
 
 Live example is running at https://jazzchat.pl/lovely.html (and on https://jazzchat.pl of course!).
