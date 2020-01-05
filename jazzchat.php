@@ -76,8 +76,11 @@ function jazzchat_setup_sections() {
 }
 
 function jazzchat_settings_callback( $arguments ) {
-	printf( '<div>The only settings you must give to WordPress is Jazzchat\'s domain name that you have registered. If you have not done this yet, you can register domain for free here: <a href=\'https://jazzchat.pl\' target=\'_blank\'>https://jazzchat.pl</a>.</div>' );
-	printf( '<br/><div>You can configure all domain and chat settings in agent\'s panel once you signed into your domain at Jazzchat.</div>' );
+	printf( '<div>When you activate Jazzchat plugin, a chat widget is displayed in the right bottom corner of your web page.</div>' );
+	printf( '<div>When the widget is clicked, it will open new chat and attempt to notify all agents in your domain.</div>' );
+	printf( '<div>Therefore you must tell WordPress what is your domain name registered at <a href=\'https://jazzchat.pl\' target=\'_blank\'>https://jazzchat.pl</a>. If you have not registered your domain yet, you can do it now.</div>' );
+	printf( '<div>All agents in your domain will have access to every chat started in your domain and can communicate with clients.</div>' );
+	printf( '<br/><div>You can configure all the chat settings for your domain in agent\'s panel once you signed into your domain at Jazzchat.</div>' );
 }
 
 function jazzchat_setup_fields() {

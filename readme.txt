@@ -16,6 +16,18 @@ Jazzchat allows you to connect users and agents within domains, using chat, audi
 
 Jazzchat allows you to connect users and agents within domains, using chat, audio and video.
 
+When you activate Jazzchat plugin, a chat widget is displayed in the right bottom corner of your web page.
+
+When the widget is clicked, it will open new chat and attempt to notify all agents in your domain.
+
+Therefore before you can use Jazzchat you must register your domain at https://jazzchat.pl and set "Your domain registered at Jazzchat" setting of this plugin, to that domain (via WordPress admin panel, page with Jazzchat settings will appear once you activated plugin).
+
+All agents in your domain will have access to every chat started in your domain and can communicate with clients.
+
+You can configure all the chat settings for your domain in agent's panel once you signed into your registered domain at Jazzchat.
+
+
+
 In free version of Jazzchat there is a limit of 2 agents per domain.
 
 In commercial ("advantage") package you can have as many agents as you want (paying per agent monthly).
