@@ -81,7 +81,7 @@ function jazzchat_settings_callback( $arguments ) {
 }
 
 function jazzchat_setup_fields() {
-	add_settings_field( 'jazzchat_uuid', 'jazzchat_uuid', 'jazzchat_field_callback', 'jazzchat', 'jazzchat_settings_first_section', '' );
+	add_settings_field( 'jazzchat_uuid', 'Your domain registered at Jazzchat', 'jazzchat_field_callback', 'jazzchat', 'jazzchat_settings_first_section', '' );
 	register_setting( 'jazzchat', 'jazzchat_uuid' );
 }
 
