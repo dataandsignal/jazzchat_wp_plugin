@@ -53,13 +53,13 @@ You can inspect HTML source code in browser's console by pressing F12 (Chrome).
 
 Note, there will likely be no agent logged in to this test domain, but you can engage your friends or just go ahead, log into this test domain and play the agent's role for your own entertainment (login credentials: domain=lovely, login=agent, password=password).
 
-Note also that some features are limited or disibaled for this test domain.
+Note also that some features are limited or disabled for this test domain.
 
 Administrator role is limited - you cannot change login and password.
 
 And by the same token, chat to email feature sends all emails to Data And Signal instead of test agent.
 
-Please remember, for your domain, you must install SSL certificate and use https for audio and video calls.
+Please remember that for your own domain, to be able to use audio and video calls you must install SSL certificate and use https.
 
 Have a fun!
 
